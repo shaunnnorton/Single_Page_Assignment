@@ -6,6 +6,12 @@ body{
     margin: 0px;
 
 }
+nav, main > section {
+	overflow: auto;
+}
+main > section {
+	min-height: 100vh;
+}
 nav ul{
     display: flex;
     list-style: none;
@@ -37,19 +43,17 @@ nav a{
 nav img{
     width: 30px;
 }
-section#banner{
+#banner{
     display: flex;
-    margin-top: 75px;
     justify-content: center;
     align-items:center;
-    flex-direction: column;
-    border-style:solid;
-    border-color: rgb(53, 53, 83);
-    margin-left: 0%;
-    margin-right: 0%;
-    padding: 5px;
-    background-color: rgb(53, 53, 83);
+    font-size: 6em;
     color: white;
+    background-image: url(DeskImage.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 0 0 20px whitesmoke;
 }
 
 section#banner img{
