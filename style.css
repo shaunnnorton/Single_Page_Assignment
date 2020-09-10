@@ -81,8 +81,9 @@ section#banner img{
 	margin: 1em;
     background-color: rgb(204, 204, 204);
     text-align:center;
-    max-height: 400px;
+    max-height: 900px;
     font-weight: 1000;
+    min-height: 500px;
 }
 .card img{
     width: 100%;
@@ -94,27 +95,59 @@ section#banner img{
     font-weight: 1000;
     font-size: 3em;
 }
-/*section#MacBookPro figure{
-    width: 30%;
-    /*border-style: groove;
-    border-color: rgb(53, 53, 83);
-    margin: 4px;
-    background-color: rgba(0, 0, 0, 0);
-    justify-content: center;
-    max-width: 300px;
-    
-}
-section#MacBookPro figure img{
+#MacBookPro a{
     display:flex;
-    width: 100%;
+    background-color: darkgray;
+    padding:0.75em;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100px;
+    position: relative;
+    left:250px;
+    text-align: center;
+    color:black;
 
 }
-section#MacBookPro figcaption{
-    width: initial;
-    text-align: center;
-    border-style: solid;
+#Mouse{
+    display: flex;
+    background-image: url(Mouse.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    align-self: center;
+    justify-content: center;
+}
+#Mouse > div{
     
-}*/
+    background-color:rgba(204, 204, 204,.44);
+	padding: 1em;
+	width: 75%;
+    max-width: 700px;
+    align-self: center;
+    text-align: center;
+}
+#Monitor{
+    background-color: lightslategray;
+    display: flex;
+}
+#Monitor > div{
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    background-color:rgba(204, 204, 204,.44) ;
+    text-align: center;
+    align-items: center;
+}
+#Monitor > div > div:nth-child(2) {
+	flex: 3;
+    margin: 0 2em 0 0;
+    
+}
+
+#Monitor > div > div:nth-child(1) {
+	flex: 2;
+}
 
 footer img{
     width: 20%;
