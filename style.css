@@ -52,7 +52,7 @@ nav img{
     align-items:center;
     font-size: 6em;
     color: white;
-    background-image: url(DeskImage.png);
+    background-image: url(Images/DeskImage.png);
     background-size:cover ;
     background-repeat: no-repeat;
     background-position: center;
@@ -110,7 +110,7 @@ nav img{
 }
 #Mouse{
     display: flex;
-    background-image: url(Mouse.png);
+    background-image: url(Images/Mouse.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
