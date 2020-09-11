@@ -85,7 +85,7 @@ nav img{
     background-color: rgb(204, 204, 204);
     text-align:center;
     max-height: 900px;
-    font-weight: 1000;
+    font-weight: 999;
     
     flex-direction: column;
     justify-content: flex-start;
@@ -97,7 +97,7 @@ nav img{
     align-self:center;
     justify-self: center;
     margin: 0;
-    font-weight: 1000;
+    font-weight: 999s;
     font-size: 3em;
 }
 .card > a{
